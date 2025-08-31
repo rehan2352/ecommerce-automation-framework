@@ -1,0 +1,8 @@
+# Ignore auto-generated test report files (HTML, CSS, JS)
+test-output/* linguist-vendored
+target/* linguist-vendored
+
+# Ignore IDE/workspace files
+*.html linguist-vendored
+*.css linguist-vendored
+*.js linguist-vendored
