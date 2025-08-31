@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="EcommerceSuite">
+    <test name="UI Tests">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="com.ecommerce.tests.LoginTest"/>
+            <class name="com.ecommerce.tests.SearchTest"/>
+            <class name="com.ecommerce.tests.CartTest"/>
+            <class name="com.ecommerce.tests.CheckoutTest"/>
+        </classes>
+    </test>
+</suite>
